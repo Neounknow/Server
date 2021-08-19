@@ -1,4 +1,4 @@
-How to sync. Azure AD with Window Server 2019
+**How to sync. Azure AD with Window Server 2019**
 
 1. Install Active Directory on Window Server
 2. Promote as Domain controller
@@ -8,3 +8,13 @@ How to sync. Azure AD with Window Server 2019
 
 Note!
 > Sync will be local to Azure only, not Azure to local.
+
+**Setup Remote Desktop App with Window Server2019**
+1. Run "Add Roles and Features Wizard"
+2. Select Remote Desktop Services
+3. Select Quick Start
+4. Select Session-based if you needed to set session timeout.
+5. Next until deploy.
+6. Setup RD Licensing and added the license via Remote Desktop License.
+7. Add RD Gateway, in case your domain is not public DNS
+8. Applied Certificate for all
